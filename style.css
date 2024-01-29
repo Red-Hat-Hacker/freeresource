@@ -1,0 +1,16 @@
+/* CSS for 2 rows, 3 columns layout */
+.A {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items horizontally */
+}
+
+#C, #Cp, #HCJS, #J, #P, #A {
+    flex: 1 1 calc(33.33% - 20px); /* Adjust width and margins as needed */
+    margin: 10px;
+}
+
+#C, #Cp, #HCJS, #J, #P, #A {
+    display: inline-block;
+    vertical-align: top;
+}
